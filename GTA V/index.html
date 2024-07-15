@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Theft Auto V - Rockstar Games</title>
+    <link rel="icon" href="./Assets/favicon-gta.ico">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar-brand border-bottom border-dark">
+        <div class="logo px-5">
+            <a  href="">
+                <img src="./Assets/R-Logo.svg" alt="">
+            </a>
+            <span class="text-dark fs-3 p-2">|</span>
+            <img src="./Assets/fullLogo.svg" alt="">
+        </div>
+
+        <div class="list-item justify-content-around">
+            <ul class="nav nav-underline">
+                <li class="nav-item px-3 fs-6 fw-medium">
+                    <a class="nav-link active text-white " aria-current="page" href="#">Overview</a>
+                </li>
+                <!--  -->
+                <li class="nav-item dropdown px-3 fs-6 fw-medium ">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        GTA Online
+                    </a>
+                    <ul class="dropdown-menu bg-black">
+                        <li><a class="dropdown-item" href="#">Discover</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">My Character</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Jobs</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Guides</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">License Plate Creator</a></li>
+                    </ul>
+                </li>
+                <!--  -->
+                <li class="nav-item dropdown px-3 fs-6 fw-medium ">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Story
+                    </a>
+                    <ul class="dropdown-menu bg-black">
+                        <li><a class="dropdown-item" href="#">Stats</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Missions</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Checklist</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Accomplishment</a></li>
+                    </ul>
+                </li>
+                <!--  -->
+                <li class="nav-item px-3 fs-6 fw-medium ">
+                    <a class="nav-link text-white" aria-disabled="true">GTA<span style="font-size: larger;">+</span></a>
+                </li>
+                <!--  -->
+                <li class="nav-item dropdown px-3 fs-6 fw-medium ">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Community
+                    </a>
+                    <ul class="dropdown-menu  bg-black">
+                        <!--  -->
+                        <li class="nav-item dropdown-item px-3 fs-6 fw-medium ">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Jobs
+                            </a>
+                            <ul class="dropdown-menu dropend">
+                                <li><a class="dropdown-item" href="#">Browse All Jobs</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Community Series</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">My Jobs</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Playlists</a></li>
+                            </ul>
+                        </li>
+                        <!--  -->
+                        <li><a class="dropdown-item" href="#">Crews</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Photos</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Videos</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Community Guidelines</a></li>
+                    </ul>
+                </li>
+                <!--  -->
+                <li class="nav-item px-3 fs-6 fw-medium">
+                    <a class="nav-link text-white" aria-disabled="true">
+                        Support
+                        <img style="height: 15px; margin-bottom: 5px;" src="./Assets/Share.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="list-btn mx-5">
+            <button type="button" class="btn btn-outline-light fw-bold">BUY NOW</button>
+            <a class="px-4" href="#">
+                <img style="height: 25px;" src="./Assets/902006563577748c7d58ac9c2bf5e6df.svg" alt="">
+            </a>
+            <a href="#">
+                <img style="height: 30px;" src="./Assets/a29e26aa160e7be7e845708c335b3c39.svg" alt="">
+            </a>
+        </div>
+    </nav>
+
+
+<!-- Section-1 -->
+    <section class="img-fluid position-relative" style="height: 90vh; width: 100vw; background: linear-gradient(to right,rgb(0, 0, 0, 1),rgb(255, 255, 255,0) 100%),url(./Assets/Primary\ -\ 1.jpg); background-size: 100%; background-repeat: no-repeat; position:relative">
+        <div class="trapezoid"></div>
+
+        <div class="primary-1-content">
+                <img class="gta-v" src="./Assets/gta v.svg" alt="" style="height: 25%; padding-right: 27px;">
+                <img src="./Assets/gta online.svg" alt="" style="height: 25%;">
+            
+
+            <h1 class="text-white text-header">Now available for PS5 and <br>Xbox Series X|S</h1>
+
+            <p class="text-white text-para">Experience entertainment blockbusters, Grand Theft <br> Auto V and GTA Online.</p>
+
+            <button type="button" class="btn btn-outline-light fw-bold" style="height: 14%; width:40% ;margin-top:30px; margin-right: 18px;">WATCH THE TRAILER</button>
+            <button type="button" class="btn btn-outline-light fw-bold" style="height: 14%; width:30% ;margin-top:30px">BUY NOW</button>
+        </div>
+
+    </section>
+
+
+<!-- Section-2 -->
+    <section class="img-fluid position-relative section-2" style="height: 130vh; width: 100vw; background: linear-gradient(to top,rgb(28, 28, 28),rgba(53, 53, 53, 0.1) 20%),url(./Assets/Primary-2.jpg); background-size: cover;">
+
+        <div>
+            <img class="img-1" src="./Assets/image-1.png" alt="">
+        </div>
+            
+            <img class="img-2" src="./Assets/gta v.svg" alt="">
+
+            <h1 class="text-white fw-medium text-header1">Welcome to Los Santos</h1>
+            <p class="text-white fs-5 text-para1">When a young street hustler, a retired bank robber, and a terrifying <br>psychopath find themselves entangled with some of
+            the most <br>frightening and deranged elements of the criminal underworld, the <br> U.S. government, and the entertainment
+            industry, they must pull off a <br>series of dangerous heists to survive in a ruthless city in which they <br> can trust nobody —
+            least of all each other.</p>
+            <br>
+            <p class="text-white fs-5 text-para1">Current players can transfer both GTAV Story Mode progress and <br>GTA Online characters and progression to PlayStation 5
+            and Xbox <br>Series X|S with a one-time migration.</p>
+
+    </section>
+
+
+<!-- Setion-3 -->
+    <section class="img-fluid" style="height: 100vh; width: 100vw; background: linear-gradient(to bottom,rgb(28, 28, 28),rgba(53, 53, 53, 0.1) 10%),url(./Assets/Primary-3.jpg); background-size: cover;">
+
+        <div>
+            <img class="img-3" src="./Assets/gta online.svg" alt="">
+        </div>
+
+        <img class="img-4 img-fluid" src="./Assets/image-2.png" alt="">
+
+        <div class="section-3-text">
+            <h1 class="text-white fw-medium text-header2">Grand Theft Auto Online</h1>
+            <p class="text-white fs-5 text-para2">Experience GTA Online, a dynamic and ever-evolving online universe <br> for up to
+                30 players, where you can rise from
+                street-level hustler to <br>become a kingpin of your own criminal empire.</p>
+            
+            <p class="text-white fs-5 text-para2">Enjoy new high-performance vehicle upgrades and improvements <br> like the Career
+                Builder as well as all GTA Online gameplay
+                upgrades, <br>expansions, and content released since launch, ready to enjoy solo <br>or with friends. Pull off daring
+                co-operative Heists, enter adrenaline- <br>fueled Stunt Races, compete in unique Adversary Modes, or hang <br>out in
+                social
+                spaces including nightclubs, arcades, penthouse <br>parties, car meetups, and much more.</p>
+        </div>
+
+    </section>
+
+
+<!-- Section-4 -->
+    <section class="section-4">
+    <div class="divider1"></div>
+    <main class="lastBG">
+        <div class="carouselContainer">
+            <div class="carouselHeader">
+                <span>Updates</span>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-light" onclick="goPrev()" id="prev">
+                    </button>
+                    <button type="button" class="btn btn-outline-light" onclick="goNext()" id="next"> > </button>
+                </div>
+            </div>
+            <div class="carouselBody">
+                <main>
+                    <div class="slide" style="background: url(assets/carousel/bg-1.jpg);">
+                        <div class="content">
+                            <div class="bgDark"></div>
+                            <img src="assets/carousel/img-1.png" alt="">
+                            <span><img src="assets/carousel/logo-1.svg" alt=""></span>
+                            <h1>The Cluckin' Bell Farm Raid</h1>
+                        </div>
+                    </div>
+                    <div class="slide" style="background: url(assets/carousel/bg-2.jpg);">
+                        <div class="content">
+                            <div class="bgDark"></div>
+                            <img src="assets/carousel/img-2.png" alt="">
+                            <span><img src="assets/carousel/logo-2.png" alt=""
+                                    style="height: 38% !important; margin-top: 7%;"></span>
+                            <h1>The Chop Shop</h1>
+                        </div>
+                    </div>
+                    <div class="slide" style="background: url(assets/carousel/bg-3.jpg);">
+                        <div class="content">
+                            <div class="bgDark"></div>
+                            <img src="assets/carousel/img-3.png" alt="">
+                            <span><img src="assets/carousel/logo-3.png" alt=""
+                                    style="height: 38% !important; margin-top: 7%;"></span>
+                            <h1>San Andreas Mercenaries</h1>
+                        </div>
+                    </div>
+                    <div class="slide" style="background: url(assets/carousel/bg-4.jpg);">
+                        <div class="content">
+                            <div class="bgDark"></div>
+                            <img src="assets/carousel/img-4.png" alt="">
+                            <span><img src="assets/carousel/logo-4.png" alt=""
+                                    style="height: 38% !important; margin-top: 7%;"></span>
+                            <h1>Los Santos Drug Wars</h1>
+                        </div>
+                    </div>
+                    <div class="slide" style="background: url(assets/carousel/bg-5.jpg);">
+                        <div class="content">
+                            <div class="bgDark"></div>
+                            <img src="assets/carousel/img-5.png" alt="">
+                            <span><img src="assets/carousel/logo-5.svg" alt=""></span>
+                            <h1>The Criminal Enterprises</h1>
+                        </div>
+                    </div>
+                    <div class="slide" style="background: url(assets/carousel/bg-6.jpg);">
+                        <div class="content">
+                            <div class="bgDark"></div>
+                            <img src="assets/carousel/img-6.png" alt="">
+                            <span><img src="assets/carousel/logo-6.png" alt=""
+                                    style="height: 38% !important; margin-top: 7%;"></span>
+                            <h1>The Contract</h1>
+                        </div>
+                    </div>
+                    <div class="slide" style="background: url(assets/carousel/bg-7.jpg);">
+                        <div class="content">
+                            <div class="bgDark"></div>
+                            <img src="assets/carousel/img-7.png" alt="">
+                            <span><img src="assets/carousel/logo-7.png" alt=""
+                                    style="height: 38% !important; margin-top: 7%;"></span>
+                            <h1>Los Santos Tuners</h1>
+                        </div>
+                    </div>
+                    <div class="slide" style="background: url(assets/carousel/bg-8.jpg);">
+                        <div class="content">
+                            <div class="bgDark"></div>
+                            <img src="assets/carousel/img-8.png" alt="">
+                            <span><img src="assets/carousel/logo-8.svg" alt=""></span>
+                            <h1>The Cayo Perico Heist</h1>
+                        </div>
+                    </div>
+                    <div class="slide" style="background: url(assets/carousel/bg-9.jpg);">
+                        <div class="content">
+                            <div class="bgDark"></div>
+                            <img src="assets/carousel/img-9.png" alt="">
+                            <span><img src="assets/carousel/logo-9.svg" alt=""></span>
+                            <h1>The Diamond Casino & Resort</h1>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </main>
+    </section>
+
+<!-- Section-5 -->
+    <section class="align-content-center section-5" style="height: 90vh;">
+        <img class="img-fluid rounded-3 img-left" src="./Assets/image-3.jpg" alt="">
+
+        <h1 class="text-white text-header-right">Exclusive New Content</h1>
+
+        <p class="text-white fs-5 text-para-right">Step into Hao’s Special Works at the Los Santos Car Meet, featuring <br>elite new upgrades and exclusive modifications. Then
+        take these <br> high-performance vehicles into HSW races, new time trials, and <br>more.</p>
+
+    </section>  
+    
+    
+<!-- Section-6 -->
+    <section class="align-content-center section-6" style="height: 100vh;">
+        <img class="img-fluid rounded-3 img-right" src="./Assets/image-4.jpg" alt="">
+
+        <h1 class="text-white text-header-left">New Career Builder</h1>
+
+        <p class="text-white fs-5 text-para-left">Get started in GTA Online with the tools of the trade. Quickly choose <br>from one of four businesses — Biker, Executive,
+        Nightclub Owner, or <br>Gunrunner — and select from properties, powerhouse vehicles, and <br>weaponry to kick-start your
+        enterprise.</p>
+    </section>
+
+
+<!-- Section-7 -->
+    <section class="align-content-center section-5" style="height: 100vh;">
+        <img class="img-fluid rounded-3 img-left" src="./Assets/image-5.jpg" alt="">
+
+        <h1 class="text-white text-header-right pt-4">New Menu Design</h1>
+
+        <p class="text-white fs-5 text-para-right">Immediately access everything GTA Online has to offer right from the <br>main menu, including the latest and most popular
+        updates.</p>
+    </section>
+
+
+<!-- Section-8 -->
+    <section class="align-content-center section-6" style="height: 100vh;">
+        <img class="img-fluid rounded-3 img-right" src="./Assets/image-6.jpg" alt="">
+
+        <h1 class="text-white text-header-left">Stunning Visuals</h1>
+
+        <p class="text-white fs-5 text-para-left">Enhanced levels of fidelity and performance with new graphics <br>modes featuring up to 4K resolution, up to 60 frames per
+        second, <br>HDR options, ray tracing, improved texture qualities, and more.</p>
+    </section>
+
+
+<!-- Section-9 -->
+    <section class="align-content-center section-5" style="height: 100vh;">
+        <img class="img-fluid rounded-3 img-left" src="./Assets/image-7.jpg" alt="">
+
+        <h1 class="text-white text-header-right pt-4">Faster Loading</h1>
+
+        <p class="text-white fs-5 text-para-right">Quicker access to the action as the world of Los Santos and Blaine <br>County load in faster than ever before.</p>
+    </section>
+
+
+<!-- Section-10 -->
+    <section class="align-content-center section-6" style="height: 100vh;">
+        <img class="img-fluid rounded-3 img-right" src="./Assets/image-8.jpg" alt="">
+
+        <h1 class="text-white text-header-left">Immersive Controls</h1>
+
+        <p class="text-white fs-5 text-para-left">Feel new levels of responsiveness with Haptic Feedback and <br>dynamic resistance via the Adaptive Triggers on PlayStation
+        5's <br>DualSense wireless controller, from directional damage to weather <br>effects, rough road surfaces to explosions, and
+        much more.</p>
+    </section>
+
+
+<!-- Section-11 -->
+    <section class="align-content-center section-5" style="height: 100vh;">
+        <img class="img-fluid rounded-3 img-left" src="./Assets/image-9.jpg" alt="">
+
+        <h1 class="text-white text-header-right pt-4">3D Audio</h1>
+
+        <p class="text-white fs-5 text-para-right">Hear the sounds of the world with pinpoint precision: the throttle of a <br>stolen supercar, the rattle of neighboring
+        gunfire, the roar of a <br>helicopter overhead, and more</p>
+    </section>
+
+
+<!-- Section-12 -->
+    <section class="section-12" style="height: 150vh;">
+        <h1 class="text-white text-header-left-12">Buy Now</h1>
+
+
+    <div class="cardsss">
+        <div class="card-group cards">
+            <div class="card rounded-3 bg-black card-1" style="margin-left: 5%;">
+                <div class="card-1-img position-relative rounded-3" style="background: linear-gradient(to top,rgb(0, 0, 0),rgb(0, 0, 0, 0.3)),url(./Assets//Cards/bg-1.jpg); background-size: cover; height: 45%;">
+                    <img class="img-fluid logo-2" src="./Assets/Cards/logo-1.jpg" alt="">
+                </div>
+
+                <div class="card-body" style="margin-left: 30px; margin-right: 30px;">
+                    <h1 class="card-title text-white" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Grand Theft Auto Online</h1>
+
+                    <p class="card-text text-white fs-5">Includes <span class="fw-bold">GTA Online</span></p>
+
+                    <div class="mt-5 mb-5">
+                        <img src="./Assets/Cards/ps5.svg" alt="">
+                        <img class="px-3" src="./Assets/Cards/xbox.svg" alt="">
+                    </div>
+
+                    <div class="p-2 px-3 text-white rounded-1 box-text">Story mode upgrade available in game</div>
+
+                    <button type="button" class="btn btn-outline-light w-100 fw-bold fs-6 card-btn1">SELECT PLATFORM</button>
+                </div>
+            </div>
+
+
+            <div class="card rounded-3 bg-black card-2" style="margin-right: 5%;">
+                <div class="card-2-img position-relative rounded-3" style="background: linear-gradient(to top,rgb(0, 0, 0),rgb(0, 0, 0, 0.3)),url(./Assets//Cards/bg-2.jpg); background-size: cover; height: 45%;">
+                    <img class="img-fluid logo-2" src="./Assets/Cards/logo-2.jpg" alt="">
+                </div>
+
+                <div class="card-body" style="margin-left: 30px; margin-right: 30px;">
+                    <h1 class="card-title text-white" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Grand Theft Auto V</h1>
+
+                    <p class="card-text text-white fs-5">Includes <span class="fw-bold">GTAV Story Mode & GTA Online</span></p>
+
+                    <div class="mt-5 mb-5">
+                        <img src="./Assets/Cards/ps5.svg" alt="">
+                        <img class="px-3" src="./Assets/Cards/xbox.svg" alt="">
+                        <img src="./Assets/Cards/ps4.svg" alt="">
+                        <br>
+                        <img class="mt-4" src="./Assets/Cards/xbox1.svg" alt="">
+                        <img class="mt-4 px-3" src="./Assets/Cards/pc.svg" alt="">
+                    </div>
+
+                    <button type="button" class="btn btn-outline-light w-100 fw-bold fs-6 card-btn">SELECT PLATFORM</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+
+<!-- Section-13 -->
+    <section class="d-flex justify-content-center section-13" style="height: 20vh; width: 100%;">
+        <div class="bg-black text-white fw-bold p-5 fs-5 rounded-3 text-box">All latest feature upgrades and improvements available for
+            PlayStation 5 and Xbox Series X|S only.</div>
+    </section>
+
+
+
+<!-- Section-14 -->
+    <section class="d-flex justify-content-center section-14" style="height: 50vh; width: 100%;">
+        <div class="bg-black text-white rounded-1 end-box">
+            <a href="">
+                <img class="float-start end-img" src=".//Assets/mature.svg" alt="">
+            </a>
+            <p class="end-para">Blood and Gore, Intense <br> Violence, Mature Humor,<br> Nudity, Strong Language,<br> Strong Sexual Content, Use <br>of Drugs and Alcohol</p>
+            <hr class="hr">
+            <p class="end-para1">In-Game Purchases, Users <br>Interac</p>
+        </div>
+    </section>
+
+
+<!-- Footer -->
+    <section class="footer bg-black" style="height: 65vh ;" data-toggle="tooltip" title="Footer">
+        <div class="footer-div-1">
+            <div class="footer-div-1-sub">
+                <h5><a href="">Contact</a></h5>
+                <h5><a href="">Careers <img src="./Assets/Share.svg" alt=""
+                            style="height: 15px; margin-bottom: 10px; margin-left: 5px;"></a></h5>
+                <h5><a href="">Community Guidelines</a></h5>
+                <h5><a href="">Subscribe</a></h5>
+            </div>
+            
+            <div class="footer-div-1-sub1" style="float: right;">
+                <div class="dropup">
+                    <button class="btn bg-black text-white border border-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Select a Language
+                    </button>
+                    <ul class="dropdown-menu bg-black">
+                        <li><a class="dropdown-item text-white " href="#">Deutsch</a></li>
+                        <li><a class="dropdown-item text-white " href="#">English</a></li>
+                        <li><a class="dropdown-item text-white " href="#">Español</a></li>
+                        <li><a class="dropdown-item text-white " href="#">Español Latinoamérica</a></li>
+                        <li><a class="dropdown-item text-white " href="#">Français</a></li>
+                        <li><a class="dropdown-item text-white " href="#">Italiano</a></li>
+                        <li><a class="dropdown-item text-white " href="#">日本語</a></li>
+                        <li><a class="dropdown-item text-white " href="#">한국어</a></li>
+                        <li><a class="dropdown-item text-white " href="#">Polski</a></li>
+                        <li><a class="dropdown-item text-white " href="#">Português do Brasil</a></li>
+                        <li><a class="dropdown-item text-white " href="#">Русский</a></li>
+                        <li><a class="dropdown-item text-white " href="#">繁體中文</a></li>
+                        <li><a class="dropdown-item text-white " href="#">简体中文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-div-2">
+            <div class="footer-div-2-sub">
+                <h5><a href="">Corporate</a></h5>
+                <h5><a href="">Privacy</a></h5>
+                <h5><a href="">Cookie Settings</a></h5>
+                <h5><a href="">Cookie Policy</a></h5>
+                <h5><a href="">Legal</a></h5>
+                <h5><a href="">Do Not Sell My Personal Information</a></h5>
+            </div>
+            <div class="footer-div-2-sub2" style="float: right;">
+                <img class="h-50 px-3" src="./Assets/Footer/x.svg" alt="">
+                <img class="h-50 px-3" src="./Assets/Footer/insta.svg" alt="">
+                <img class="h-50 px-3" src="./Assets/Footer/yt.svg" alt="">
+                <img class="h-50 px-3" src="./Assets/Footer/fb.svg" alt="">
+                <img class="h-50 px-3" src="./Assets/Footer/twitch.svg" alt="">
+            </div>
+        </div>
+
+
+        <div class="footer-div-3 mt-4 text-white">
+            <h6>Rockstar Games</h6>
+            <div class="footer-div-3-sub-3">
+                <h6 class="px-2">New York</h6>
+                <h6 class="px-2">London</h6>
+                <h6 class="px-2">Paris</h6>
+                <h6 class="px-2">Bogotá</h6>
+            </div>
+            <h6>MCMXCVIII</h6>
+        </div>
+
+    </section>
+
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    
+<script src="./script.js"></script>
+</body>
+</html>

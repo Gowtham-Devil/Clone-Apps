@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+}
+
+
+
+.navbar-brand{
+    height: 75px;
+    line-height: 57.5px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin: 0;
+    padding: -20px;
+}
+.logo>a>img{
+    height: 30px;
+}
+ /* .list-item{
+    display: flex;
+    padding: 0px 50px 0px 50px;
+    justify-content: space-between;
+    background-color: aquamarine;
+} */
+.dropdown-menu{
+    line-height: 30px;                  /**/
+}
+
+
+/* Section-1 */
+.trapezoid{
+    border-bottom: 1.5px solid transparent;
+        border-Top: 30px solid transparent;
+        border-left: 1519.5px solid #000000;
+        height: 50px;
+        transform: rotate(3.142rad);
+}
+
+.primary-1-content{
+    height: 500px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.text-header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 50px;
+}
+.text-para{
+    font-size: 1.3em;
+}
+
+
+/* Section-2 */
+.img-1{
+    height: 70%;
+    width: 50%;
+    float: left;
+    padding-left: 80px;
+    padding-top: 150px;
+}
+.img-2{
+    height: 12%;
+    width: 10%;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+.text-header1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    margin-left: 51%;
+}
+.text-para1{
+    margin-top: 20px;
+    margin-left: 51%;
+}
+
+
+/* section-3 */
+.img-3{
+    height: 10%;
+    width: 8%;
+    margin-left: 6.6%;
+}
+.img-4{
+    height: 75%;
+    width: 45%;
+    float: right;
+    margin-right: 80px;
+    margin-top: -100px;
+}
+.text-header2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 6.5%;
+    margin-top: 40px;
+}
+.text-para2{
+    margin-left: 6.5%;
+    margin-top: 25px;
+}
+
+/* section-4 */
+
+.divider1 {
+    width: 100%;
+    height: 58vh;
+    /* z-index: 0; */
+    margin-top: 41%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #121212 30%, rgba(0, 0, 0, 0));
+    position: absolute;
+}
+
+
+.lastBG {
+    width: 100%;
+    /* ll */
+    height: 220vh;
+    background-color: rgb(19, 19, 19);
+    margin-top: -55%;
+    z-index: -1;
+    position: relative;
+}
+
+.lastBG>.carouselContainer {
+    width: 100%;
+    height: 600px;
+    /* background-color: aqua; */
+    margin-top: 60%;
+    position: absolute;
+}
+
+.lastBG>.carouselContainer>.carouselHeader {
+    width: 100%;
+    height: 20%;
+    /* background-color: olivedrab; */
+    display: flex;
+}
+
+.lastBG>.carouselContainer>.carouselHeader>.btn-group {
+    margin-left: 72.5%;
+    margin-top: 3%;
+}
+
+.lastBG>.carouselContainer>.carouselHeader>.btn-group>button {
+    height: 4rem;
+    width: 4rem;
+}
+
+.lastBG>.carouselContainer>.carouselHeader>span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 49px;
+    padding-left: 82px;
+}
+
+.lastBG>.carouselContainer>.carouselBody {
+    width: 100%;
+    height: 80%;
+    /* background-color: rgb(255, 0, 251); */
+    position: absolute;
+}
+
+.lastBG>.carouselContainer>.carouselBody>main {
+    width: 100%;
+    height: 426px;
+    /* background-color: aquamarine; */
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    width: 45.5%;
+    height: 96%;
+    position: absolute;
+    transition: 1s;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: 1.1%;
+}
+
+.slide:hover {
+    cursor: pointer;
+}
+
+.slide>.content {
+    height: 102%;
+    width: 100%;
+    margin-top: -4%;
+    position: relative;
+    z-index: 10;
+}
+
+.slide>.content>img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 3%;
+    border-radius: 0px 13px 11px;
+
+}
+
+.slide>.content>img:hover {
+    cursor: pointer;
+    transform: scaleY(1.05);
+    transition: 0.5s;
+    border-radius: 0px 27px 26px;
+}
+
+.slide>.content>span>img {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    margin-top: -11%;
+    margin-left: -95%;
+}
+
+.slide>.content>h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    font-size: 40px;
+    letter-spacing: -3px;
+    color: #ffffff;
+    margin-left: 3%;
+    margin-top: -11%;
+    position: absolute;
+}
+
+.slide>.content>.bgDark {
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    background: linear-gradient(to top, black, transparent);
+    border-radius: 10px;
+    margin-top: 4%;
+}
+
+
+.sectionContainer {
+    width: 100%;
+    height: 406vh;
+    background-color: rgb(19, 19, 19);
+    margin-top: 44%;
+    position: absolute;
+}
+
+/* section-5 */
+.section-5{
+    background-color: rgb(19, 19, 19);
+}
+.img-left{
+    height: 40%;
+    width: 42%;
+    margin-left: 5.6%;
+    float: left;
+}
+.text-header-right{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:6%;
+    margin-left: 52.5%;
+    
+}
+.text-para-right{
+    margin-top: 1%;
+    margin-left: 52.5%;
+}
+
+
+/* Section-6 */
+.section-6 {
+    background-color: rgb(19, 19, 19);
+}
+.img-right {
+    height: 40%;
+    width: 42%;
+    margin-right: 5.6%;
+    float: right;
+}
+.text-header-left{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 6%;
+    margin-left: 5.6%;
+
+}
+
+.text-para-left {
+    margin-top: 1%;
+    margin-left: 5.6%;
+}
+
+
+/* Section-7 */
+/* Section-8 */
+/* Section-9 */
+/* Section-10 */
+/* Section-11 */
+
+/* All have same classes */
+
+
+/* Section-12 */
+.section-12{
+    background-color: rgb(19, 19, 19);
+}
+.text-header-left-12{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 9%;
+    padding-bottom: 1%;
+    margin-left: 5.6%;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cards{
+    height: 115vh;
+}
+.card-1{
+    margin-right: 20px;
+}
+
+
+.logo-2{
+    margin-top: 10%;
+    margin-left: 27.5%;
+    width: 45%;
+}
+.card-btn1{
+    height: 70px;
+    margin-top: 15.5%;
+}
+.card-btn{
+    height: 70px;
+    margin-top: 15%;
+}
+.box-text{
+    background-color: #171717;
+    width: 55%;
+    border: 1px solid rgb(77, 77, 77);
+}
+
+
+/* Section-13 */
+.section-13{
+    background-color: rgb(19, 19, 19);
+}
+.text-box{
+    height: 120px;
+    border: 1px solid rgb(77, 77, 77);
+}
+
+
+/* Section-14 */
+.section-14{
+    background-color: rgb(19, 19, 19);
+    align-items: center;
+}
+.end-box{
+    height: 45%;
+    width: 17.5%;
+    padding: 20px;
+    border: 1px solid rgb(77, 77, 77);;
+}
+.end-img{
+    height: 90%;
+}
+.end-para{
+    font-size: .6em;
+    padding: 5px 0px 0px 100px;
+}
+.end-para1{
+    font-size: .6em;
+    padding: -10px 10px 0px 0px;
+    margin-top: -10px;
+    margin-right: 20px;
+    float: right;
+}
+.hr{
+    margin-left: 40%;
+    height: 0%;
+}
+
+
+/* Footer */
+.footer-div-1{
+    display: flex;
+    /* background-color: antiquewhite; */
+    margin-left: 5.6%;
+    margin-right: 5.6%;
+    padding-top: 5.6%;
+}
+.footer-div-1-sub{
+    display: flex;
+    width: 50%;
+}
+.footer-div-1-sub>h5{
+    padding-right: 20px;
+}
+.footer-div-1-sub>h5>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-div-1-sub>h5>a:hover{
+    color: orange;
+}
+.footer-div-1-sub1{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+.footer-div-1>h5{
+    padding-right: 2%;
+}
+
+
+
+.footer-div-2 {
+    display: flex;
+    /* background-color: antiquewhite; */
+    margin-left: 5.6%;
+    margin-right: 5.6%;
+    padding-top: 5.6%;
+}
+.footer-div-2-sub {
+    display: flex;
+    width: 50%;
+}
+.footer-div-2-sub>h5 {
+    padding-right: 20px;
+}
+.footer-div-2-sub>h5>a {
+    text-decoration: none;
+    color: #696969;
+    font-size: medium;
+}
+.footer-div-2-sub>h5>a:hover {
+    color: orange;
+}
+.footer-div-2-sub2 {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+/* .footer-div-2-sub2>img{
+    margin: 5px 0px 5px 0px;
+} */
+.footer-div-2-sub2>img:hover{
+    background-color: #272727;
+    border-radius: 50%;
+}
+
+
+
+.footer-div-3{
+    display: flex;
+    margin-left: 5.6%;
+    margin-right: 5.6%;
+    padding-top: 5.6%;
+    justify-content: space-between;
+}
+.footer-div-3-sub-3{
+    display: flex;
+}
+.footer-div-3-sub-3>h6{
+    
+}
